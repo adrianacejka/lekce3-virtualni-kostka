@@ -15,6 +15,7 @@ function hodKostkou() {
         
         kostka.src = 'obrazky/' + cislo + '.png';
         audio.play();
+        audio.volume = 0.01;
     } else {
         document.querySelector('#zprava').textContent = 'Hodil jsi ' + cislo + ', házej znovu!';
         kostka.src = 'obrazky/' + cislo + '.png';
